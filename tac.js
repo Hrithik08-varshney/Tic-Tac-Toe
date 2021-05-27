@@ -26,7 +26,7 @@ const check=(player_value)=>{
     else if(d1==player_value && d4==player_value && d7==player_value){
        return "true";
     }
-    else if(d2==player_value && d5==player_value && d6==player_value){
+    else if(d2==player_value && d5==player_value && d8==player_value){
        return "true";
     }
     else if(d3==player_value && d6==player_value && d9==player_value){
