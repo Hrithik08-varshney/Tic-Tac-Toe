@@ -47,9 +47,13 @@ const play1=(player1)=>{
         div1.innerHTML=`${player1}`;
         d1=`${player1}`;
         count++;
+        div1.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
             else{
@@ -61,9 +65,14 @@ const play1=(player1)=>{
         div2.innerHTML=`${player1}`;
         d2=`${player1}`;
         count++;
+        div2.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -75,9 +84,14 @@ const play1=(player1)=>{
         div3.innerHTML=`${player1}`;
         d3=`${player1}`;
         count++;
+        div3.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -89,9 +103,14 @@ const play1=(player1)=>{
         div4.innerHTML=`${player1}`;
         d4=`${player1}`;
         count++;
+        div4.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -103,9 +122,14 @@ const play1=(player1)=>{
         div5.innerHTML=`${player1}`;
         d5=`${player1}`;
         count++;
+        div5.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -118,9 +142,14 @@ const play1=(player1)=>{
         div6.innerHTML=`${player1}`;
         d6=`${player1}`;
         count++;
+        div6.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -132,9 +161,14 @@ const play1=(player1)=>{
         div7.innerHTML=`${player1}`;
         d7=`${player1}`;
         count++;
+        div7.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -146,9 +180,14 @@ const play1=(player1)=>{
         div8.innerHTML=`${player1}`;
         d8=`${player1}`;
         count++;
+        div8.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -160,9 +199,14 @@ const play1=(player1)=>{
         div9.innerHTML=`${player1}`;
         d9=`${player1}`;
         count++;
+        div9.style.pointerEvents = 'none';
         let res=check(player1);
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player1} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player1} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }
         else{
@@ -179,8 +223,13 @@ const play1=(player1)=>{
             div1.innerHTML=`${player2}`;
             d1=`${player2}`;
             let res=check(player2);
+            div1.style.pointerEvents = 'none';
         if(res=="true"){
-            para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
+            para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+            
+            setInterval(() => {
+                location.reload();
+            }, 4000);
             return;
         }else{
         para.innerHTML=`Player First Turn`;
@@ -191,9 +240,14 @@ const play1=(player1)=>{
             div2.innerHTML=`${player2}`;
             d2=`${player2}`;
             let res=check(player2);
+            div2.style.pointerEvents = 'none';
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -202,10 +256,15 @@ const play1=(player1)=>{
         div3.addEventListener("click",function(){
             div3.innerHTML=`${player2}`;
             d3=`${player2}`;
+            div3.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -214,10 +273,15 @@ const play1=(player1)=>{
         div4.addEventListener("click",function(){
             div4.innerHTML=`${player2}`;
             d4=`${player2}`;
+            div4.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -226,10 +290,15 @@ const play1=(player1)=>{
         div5.addEventListener("click",function(){
             div5.innerHTML=`${player2}`;
             d5=`${player2}`;
+            div5.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -238,10 +307,15 @@ const play1=(player1)=>{
         div6.addEventListener("click",function(){
             div6.innerHTML=`${player2}`;
             d6=`${player2}`;
+            div6.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -250,10 +324,15 @@ const play1=(player1)=>{
         div7.addEventListener("click",function(){
             div7.innerHTML=`${player2}`;
             d7=`${player2}`;
+            div7.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -262,10 +341,15 @@ const play1=(player1)=>{
         div8.addEventListener("click",function(){
             div8.innerHTML=`${player2}`;
             d8=`${player2}`;
+            div8.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
@@ -274,10 +358,15 @@ const play1=(player1)=>{
         div9.addEventListener("click",function(){
             div9.innerHTML=`${player2}`;
             d9=`${player2}`;
+            div9.style.pointerEvents = 'none';
             let res=check(player2);
             if(res=="true"){
-                para.innerHTML=` 👑👑👑👑 ${player2} wins 👑👑👑👑 `;
-                return;
+                para.innerHTML=` 👑👑 ${player2} wins 👑👑 `;
+                
+                setInterval(() => {
+                location.reload();
+            }, 4000);
+            return;
             }else{
             para.innerHTML=`Player First Turn`;
                 play1(player1);
